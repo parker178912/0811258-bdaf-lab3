@@ -16,8 +16,8 @@ npm install @openzeppelin/contracts
 - **`ethers`** 是一個 Ethereum JavaScript 客戶端庫，它提供了簡單易用的 API 來與 Ethereum 網路進行互動，包括帳戶管理、智能合約部署、交易發送等功能。
 - **`@nomiclabs/hardhat-waffle`** 是 Hardhat 中用來測試智能合約的套件，它提供了一些有用的測試輔助函數，例如可以方便地模擬以太坊網路上的交易、事件等。
 - **`ethereum-waffle`** 是 Waffle 的一個簡化版本，它提供了更加簡潔易用的 API 來寫智能合約測試。
-- **`@nomiclabs/hardhat-ethers`**是 Hardhat Ethers.js 整合插件，它讓 Hardhat 能夠更好地與 Ethers.js 客戶端庫進行整合，包括方便地部署和調用智能合約等功能。
-- **`chai`**是一個 JavaScript 斷言庫，它提供了許多測試斷言和測試輔助函數，可以讓你更輕鬆地編寫測試用例。
+- **`@nomiclabs/hardhat-ethers`** 是 Hardhat Ethers.js 整合插件，它讓 Hardhat 能夠更好地與 Ethers.js 客戶端庫進行整合，包括方便地部署和調用智能合約等功能。
+- **`chai`** 是一個 JavaScript 斷言庫，它提供了許多測試斷言和測試輔助函數，可以讓你更輕鬆地編寫測試用例。
 
 ## Contracts folder
 
@@ -183,8 +183,8 @@ npm i solidity-coverage
 npm install hardhat-gas-reporter --save-dev
 ```
 
-- **`solidity-coverage`**可以幫助開發者衡量他們 Solidity 智能合約代碼的測試覆蓋率，並且生成代碼覆蓋率報告，方便開發者評估他們的測試用例的有效性和 Solidity 代碼的質量。
-- **`hardhat-gas-reporter`**可以幫助開發者評估他們 Solidity 智能合約的燃氣消耗情況。它會在每次運行 Solidity 測試時，收集並報告每個測試用例所消耗的燃氣量。開發者可以通過這些信息優化他們的 Solidity 代碼，以降低燃氣消耗量。
+- **`solidity-coverage`** 可以幫助開發者衡量他們 Solidity 智能合約代碼的測試覆蓋率，並且生成代碼覆蓋率報告，方便開發者評估他們的測試用例的有效性和 Solidity 代碼的質量。
+- **`hardhat-gas-reporter`** 可以幫助開發者評估他們 Solidity 智能合約的燃氣消耗情況。它會在每次運行 Solidity 測試時，收集並報告每個測試用例所消耗的燃氣量。開發者可以通過這些信息優化他們的 Solidity 代碼，以降低燃氣消耗量。
 
 ```bash
 npx hardhat test
