@@ -257,12 +257,7 @@ npm install --save-dev hardhat-deploy-ethers
 npm install --save-dev @nomiclabs/hardhat-etherscan
 npx hardhat run scripts/deploy.js --network goerli
 ```
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/276ef33b-600a-496c-9236-2ace721c3e3e/Untitled.png)
-
 Check the contracts on [goerli etherscan](https://goerli.etherscan.io/), and you can see that the contract aren’t verified yet.
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e55a9209-497b-4786-a7db-dc994ce69a00/Untitled.png)
 
 ## Verify
 
@@ -271,7 +266,4 @@ npx hardhat verify --network goerli <contract-address>
 npx hardhat verify --network goerli 0x9aEc1a013F80C0ceD97de7E1CBeC5B3ba5E332DE
 npx hardhat verify --network goerli 0x26b805937D5fE10fd3174669CaF1c45B1FcBB0cC
 ```
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0d491f4-ad12-4cfe-b605-0c4a2f8d64b0/Untitled.png)
-
 You can see that the contract is verified !!
